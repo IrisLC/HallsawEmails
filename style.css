@@ -1,0 +1,82 @@
+body {
+  background-color: #454545;
+  margin: 0%;
+  padding: 0%;
+}
+
+.signOn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 90vh;
+
+  div {
+    max-height: fit-content;
+    padding: 2ch;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    font-size: 1.5rem;
+    color: azure;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #username,
+    #pwd {
+      width: 20rem;
+      height: 2.5ch;
+      font-size: 1.5rem;
+    }
+
+    #sub {
+      width: 50%;
+    }
+  }
+}
+
+.graphDiv {
+  display: grid;
+  grid: 100vh / 25% 75%;
+}
+
+nav {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0%;
+  background-color: black;
+  border-color: black;
+  border-style: solid;
+}
+
+button {
+  height: 10ch;
+  width: 100%;
+
+  background-color: #454545;
+  border-style: solid;
+  border-color: black;
+
+  color: #f3eff5;
+}
+
+button:hover {
+  background-color: #898989;
+  border-color: #898989;
+}
+
+.emails {
+  color: white;
+  padding: 5%;
+}
+
+a {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
