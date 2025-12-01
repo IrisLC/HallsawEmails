@@ -9,6 +9,6 @@ function checkInput() {
   let pwd = Password.value;
 
   if (uname === "FrostH" && pwd.toLowerCase() === "aequor") {
-    window.location.href = "/emails.html";
+    window.location.href = "./emails.html";
   }
 }
